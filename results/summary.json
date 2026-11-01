@@ -1,0 +1,67 @@
+{
+  "about": "Aggregate telemetry from automated playtests of Sable Springs. Each session is 5 simulated minutes. Values per style are per-session averages unless named median.",
+  "first_run": {
+    "sessions": 200,
+    "sessions_per_style": 25,
+    "crashes": 0,
+    "script_errors": 0,
+    "missions_started": 328,
+    "missions_done": 40,
+    "deaths": 225,
+    "arrests": 170,
+    "stuck_events": 1907,
+    "money_earned_total": 220970,
+    "sessions_with_no_reward": 122,
+    "by_style": {
+      "story":    {"mStart": 2.44, "mDone": 0.20, "mFail": 0.68, "deaths": 0.08, "busts": 1.48, "earned": 268.4,  "spent": 204.72, "maxHeat": 2.28, "stuck": 9.28,  "carShare": 38.96, "firstRewardMedian": 99.5,  "noReward": 15, "eventsPerMin": 2.82, "maxGapMedian": 92,  "systems": 4.52},
+      "side":     {"mStart": 1.64, "mDone": 0.08, "mFail": 0.84, "deaths": 0.00, "busts": 1.20, "earned": 54.8,   "spent": 142.52, "maxHeat": 1.80, "stuck": 9.20,  "carShare": 62.88, "firstRewardMedian": 117.1, "noReward": 13, "eventsPerMin": 2.57, "maxGapMedian": 96,  "systems": 4.88},
+      "chaos":    {"mStart": 0.72, "mDone": 0.00, "mFail": 0.00, "deaths": 0.64, "busts": 1.64, "earned": 32.8,   "spent": 220.48, "maxHeat": 3.48, "stuck": 7.88,  "carShare": 5.96,  "firstRewardMedian": 107.5, "noReward": 16, "eventsPerMin": 4.59, "maxGapMedian": 103, "systems": 4.52},
+      "burglar":  {"mStart": 0.16, "mDone": 0.00, "mFail": 0.00, "deaths": 0.04, "busts": 0.16, "earned": 659.6,  "spent": 22.52,  "maxHeat": 0.60, "stuck": 22.36, "carShare": 0.00,  "firstRewardMedian": 32,    "noReward": 18, "eventsPerMin": 1.78, "maxGapMedian": 276, "systems": 2.20},
+      "turf":     {"mStart": 0.24, "mDone": 0.00, "mFail": 0.00, "deaths": 4.80, "busts": 0.16, "earned": 70,     "spent": 456.52, "maxHeat": 1.24, "stuck": 5.12,  "carShare": 1.40,  "firstRewardMedian": 70.8,  "noReward": 17, "eventsPerMin": 7.19, "maxGapMedian": 56,  "systems": 6.08, "wars": 5.08, "turfsTaken": 0.04},
+      "explorer": {"mStart": 0.56, "mDone": 0.00, "mFail": 0.04, "deaths": 0.12, "busts": 0.60, "earned": 31.2,   "spent": 79.2,   "maxHeat": 1.56, "stuck": 14.52, "carShare": 41.36, "firstRewardMedian": 206,   "noReward": 15, "eventsPerMin": 1.74, "maxGapMedian": 175, "systems": 3.72},
+      "skyline":  {"mStart": 2.52, "mDone": 1.32, "mFail": 0.20, "deaths": 0.00, "busts": 0.32, "earned": 7696.8, "spent": 36.64,  "maxHeat": 1.16, "stuck": 7.92,  "carShare": 24.40, "firstRewardMedian": 72.5,  "noReward": 9,  "eventsPerMin": 2.82, "maxGapMedian": 136, "systems": 4.12},
+      "flood":    {"mStart": 4.84, "mDone": 0.00, "mFail": 0.00, "deaths": 3.32, "busts": 1.24, "earned": 25.2,   "spent": 345.44, "maxHeat": 2.64, "stuck": 0.00,  "carShare": 0.04,  "firstRewardMedian": 102.6, "noReward": 19, "eventsPerMin": 5.22, "maxGapMedian": 64,  "systems": 5.08}
+    },
+    "missions": {
+      "Back in Town": {"started": 76, "done": 1, "failed": 10},
+      "Chip Off the Block": {"started": 21, "done": 0, "failed": 16},
+      "Pretty Thing": {"started": 6, "done": 5, "failed": 0},
+      "The Count Room": {"started": 25, "done": 0, "failed": 0},
+      "Last Hand": {"started": 6, "done": 0, "failed": 0},
+      "High Water": {"started": 121, "done": 0, "failed": 0},
+      "Skyline": {"started": 46, "done": 32, "failed": 0},
+      "Vinyl Drop": {"started": 4, "done": 1, "failed": 2},
+      "Shrimp Cocktail Rush": {"started": 3, "done": 1, "failed": 2},
+      "Showgirl Shuttle": {"started": 7, "done": 0, "failed": 5},
+      "Midnight Sprint": {"started": 5, "done": 0, "failed": 5},
+      "Strip Drag": {"started": 4, "done": 0, "failed": 3}
+    },
+    "stuck_hotspots_60m_cell": [["180,120 foot", 68], ["0,0 foot", 56], ["0,60 foot", 37], ["0,0 car", 37], ["-60,0 foot", 26], ["-60,-60 foot", 25], ["-60,-60 car", 20], ["-60,60 foot", 17], ["-60,0 car", 16], ["60,120 foot", 15]],
+    "death_hotspots_60m_cell": [["-240,120 (Arroyo Kings hideout)", 52], ["-240,-300 (Sable Dam)", 45], ["-300,-360 (reservoir)", 17], ["-240,-180", 9]]
+  },
+  "validation_after_fixes": {
+    "sessions": 48,
+    "styles": ["story", "side", "flood", "turf", "skyline", "explorer"],
+    "missions_started": 84,
+    "missions_done": 23,
+    "crashes": 0,
+    "notes": "Follow-up: 12 flood-only sessions after the gunfire-in-guarded-zones fix finished High Water twice in 46 starts."
+  },
+  "round_two": {
+    "sessions": 64,
+    "sessions_per_style": 8,
+    "crashes": 0,
+    "script_errors": 0,
+    "sessions_with_no_reward": 13,
+    "events_per_min_avg": 5.35,
+    "systems_used_avg": 7.61,
+    "earned_avg": 807.19,
+    "spent_avg": 300.19,
+    "street_events_started": 145,
+    "street_events_done": 72,
+    "missions_started": 89,
+    "missions_done": 20,
+    "purchases": 0,
+    "maxGapMedian_before_after": {"burglar": [276, 79], "explorer": [175, 99], "skyline": [136, 81], "chaos": [103, 101], "side": [96, 93], "story": [92, 95], "flood": [64, 110], "turf": [56, 69]}
+  }
+}
