@@ -65,7 +65,7 @@ Drive the Strip at night, rob casinos, build a crew, take over gang turf, climb 
 | **E** | Get in a car, enter a door, start a mission | Get out |
 | **R** | Reload | |
 | **Wheel, Q, 1-5** | Switch weapon | |
-| **V** | Switch between first and third person | Same |
+| **V** | Switch between first and third person (pick your default under Settings → View) | Same |
 | **M** | Map and waypoints | Same |
 | **G** | Mug, rob a store, hack an ATM | |
 | **H** | Take or release a hostage | |
